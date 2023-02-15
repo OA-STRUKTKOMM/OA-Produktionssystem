@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE book PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd"> -->
+
+<book dtd-version="2.0" xml:lang="de"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	  
+<!-- Collection Information / If the title is not part of a book series, this information can be omitted. -->
+	<!-- <collection-meta>
+		<collection-id>123456789</collection-id>
+		<title-group>
+			<title>HTWK Publications</title>
+		</title-group> -->
+
+	<!-- Volume in Collection / information on the volume the book may belong to -->
+		<!-- <volume-in-collection>
+			<volume-number>2</volume-number>
+			<volume-title>Theses of the Faculty of Engineering</volume-title>
+		</volume-in-collection> -->
+
+	<!-- ISSN information on the series -->
+		<!-- <issn>1234-5678</issn>
+		</collection-meta> -->
+
+<!-- Specific book metadata starts here -->
+
+<book-meta>
+    <!-- Book ID / Book DOI copyrigh-->
+    <book-id book-id-type="doi">12.3456/7890123456789</book-id>
+    <book-id>123.456.789</book-id>
+
+    <!-- Book title and subtitle, translated title group -->
+    <book-title-group>
+		<book-title>Titel der Open-Access-Publikation</book-title>
+		<subtitle>Untertitel der Open-Access-Publikation</subtitle>
+		<trans-title-group xml:lang="en">
+			<trans-title>Title of the Open Access publication</trans-title>
+			<trans-subtitle>Subtitle of the Open Access publication</trans-subtitle>
+		</trans-title-group>
+    </book-title-group>
+
+    <!-- Various contributors to the book -->
+    <contrib-group>
+	
+		<!-- Content suppliers, e.g. author of the book -->
+		<contrib contrib-type="content-supplier" id="author_1">
+			<contrib-id contrib-id-type="student-id">123456</contrib-id>
+			<contrib-id contrib-id-type="matriculation-id">MM-M 18</contrib-id>
+			<name>
+				<surname>Mustermann</surname>
+				<given-names>Max</given-names>
+				<prefix>M.Eng.</prefix>
+			</name>
+			<bio content-type="date-and-place-of-birth">
+				<p>geboren am 01.01.1987 in Musterstadt</p>
+			</bio>
+			<bio content-type="about-the-author">
+				<p>Max Mustermann is currently working at CivilEngine GmbH in
+				Musterstadt. He received his master’s degree in Civil Engineering
+				from the HTWK Leipzig, University of Applied Sciences. He is
+				interested in construction engineering and materials science.</p>
+			</bio>
+			<email xlink:href="mailto:an.author@xmltest.com">max.mustermann@htwk-leipzig.de</email>
+			<xref ref-type="aff" rid="aff_01"/>
+		</contrib>
+
+		<!-- Reviewers -->
+		<contrib contrib-type="reviewer_1">
+			<name>
+			<surname>Proffesaria</surname>
+			<given-names>Peter</given-names>
+        </name>
+        <degrees>Prof. Dr.-Ing.</degrees>
+			<xref ref-type="aff" rid="aff_01"/>
+		</contrib>
+
+		<contrib contrib-type="reviewer_2">
+        <name>
+          <surname>Lecturé</surname>
+          <given-names>Layla F.</given-names>
+        </name>
+        <degrees>Prof. Dr.</degrees>
+        <xref ref-type="aff" rid="aff_01"/>
+		</contrib>
+
+		<!-- Further contributors -->
+		<contrib contrib-type="content-evaluator">
+			<name>
+				<surname>Evaluator</surname>
+				<given-names>Eva</given-names>
+			</name>
+			<degrees>Master of Engineering <abbrev>M. Eng.</abbrev></degrees>
+		</contrib>
+
+		<contrib contrib-type="copy-editor">
+			<name>
+				<surname>Editor</surname>
+				<given-names>Ethan Isaac</given-names>
+			</name>
+			<degrees>PhD</degrees>
+		</contrib>
+
+		<contrib contrib-type="expert-proofreader">
+			<name>
+				<surname>Proofrock</surname>
+				<given-names>Paulina</given-names>
+			</name>
+		</contrib>
+
+		<contrib contrib-type="cover-creator">
+			<name>
+				<surname>Kreatora</surname>
+				<given-names>Claudius E.</given-names>
+			</name>
+		</contrib>
+
+		<!-- Affiliations -->
+		<aff id="aff_01">
+			<institution>HTWK Leipzig, University of Applied Sciences</institution>
+			<addr-line>Karl-Liebknecht-Str. 143</addr-line>
+			<postal-code>04277</postal-code>
+			<city>Leipzig</city>
+			<country>Germany</country>
+			<email>oa-struktkomm@htwk-leipzig.de</email>
+			<ext-link>oa-struktkomm.htwk-leipzig.de</ext-link>
+		</aff>
+    </contrib-group>
+
+	<!-- Publication Date -->
+	<pub-date>
+		<day>24</day>
+		<month>12</month>
+		<year>2021</year>
+	</pub-date>
+	
+	<pub-date date-type="pub">
+		<day>24</day>
+		<month>12</month>
+		<year>2021</year>
+	</pub-date>
+
+	<!-- ISBN information on the book -->
+	<isbn content-type="hardcover">978-3-12345-678-1</isbn>
+	<isbn content-type="softcover">978-3-12345-678-2</isbn>
+	<isbn content-type="epub">978-3-12345-678-3</isbn>
+	<isbn content-type="pdf">978-3-12345-678-4</isbn>
+
+	<!-- Publisher information -->
+	<publisher>
+		<publisher-name>Open-Access-Hochschulverlag</publisher-name>
+		<publisher-loc><institution>Hochschule für Technik, Wirtschaft und Kultur
+			Leipzig</institution>
+			<addr-line>Karl-Liebknecht-Str. 143</addr-line>
+			<postal-code>04277</postal-code>
+			<city>Leipzig</city>
+			<country>Deutschland</country></publisher-loc>
+	</publisher>
+
+	<!-- Permission for Open Access Title with Creative Commons License -->
+    <permissions>
+		<copyright-statement>© 2021 Max Mustermann</copyright-statement>
+		<copyright-year>2021</copyright-year>
+		<copyright-holder>OA-STRUKTKOMM, Leipzig</copyright-holder>
+		<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0">
+			<license-p>Der Text dieses Werks ist unter der Creative-Commons-Lizenz
+			CC BY 4.0 DE veröffentlicht. Den Vertragstext der Lizenz finden Sie
+			unter https://creativecommons.org/licenses/by/4.0/. Die Abbildungen
+			sind von dieser Lizenz ausgenommen, hier liegt das Urheberrecht beim
+			jeweiligen Rechteinhaber. </license-p>
+		</license>
+	</permissions>
+
+    <!-- Abstract -->
+    <abstract xml:lang="de">
+		<p>Die jüngsten Flutereignisse erforderten eine Überarbeitung der hydrologischen 
+			Daten für zahlreiche Dämme. Infolgedessen haben sich viele Konstruktionen als ungeeignet 
+			erwiesen über die notwendige Hochwassersicherheit verfügen. Die sächsische Lehnmühle 
+			soll saniert werden. Für eine überlaufsichere Konstruktion ist die Absenkung die 
+			bevorzugte Lösung der Kamm mehrerer Wehrfelder. Die daraus resultierende erhöhte Leistung 
+			erfordert eine Überarbeitung der Ablaufeigenschaften im Standbild Becken. Diese Arbeit 
+			zeigt zunächst die Strömungsverhältnisse des bestehenden Beruhigungsbecken mit numerischer 
+			3D-Modellierung. Zweitens mit dem Ziel von einer verbesserte Energiedissipation wird die 
+			Wirksamkeit von Prallblöcken sein geprüft und bewertet.</p>
+	</abstract>
+	<trans-abstract xml:lang="en">
+		<p>Recent flood events called for a revision of hydrological data for
+		numerous dams. As a result, many constructions have been found to not
+		possess necessary flood safety. On this account, the flood spillway of
+		the Saxon Lehnmühle dam is designated to be upgraded. In order to
+		en-sure an overflow-proof construction, the favored solution is to lower
+		the crest of several weir fields. The resulting increased performance
+		requires a revision of the runoff characteristics in the stilling
+		basin.</p>
+		<p>Firstly, this thesis shows the flow conditions of the existing
+		stilling basin, using 3D numerical modeling. Secondly, with the goal of
+		enhanced energy dissipation the effectiveness of baffle blocks will be
+		examined and evaluated.</p>
+	</trans-abstract>
+	
+    <!-- keywords -->
+    <kwd-group xml:lang="en">
+		<kwd>computational fluid dynamics</kwd>
+		<kwd>3D modeling</kwd>
+		<kwd>hydraulic engineering</kwd>
+		<kwd>flood spillway</kwd>
+		<kwd>stilling basin</kwd>
+		<kwd>energy dissipation</kwd>
+	</kwd-group>
+</book-meta>
+
+<!-- Frontmatter starts here -->
+<front-matter id="fm_01">
+
+    <!-- Dedication -->
+    <dedication>
+		<named-book-part-body>
+			<p>Hier kann eine Widmung des Autors stehen.</p>
+		</named-book-part-body>
+    </dedication>
+
+    <!-- Acknowledgment -->
+    <ack id="ack_01">
+		<title>Danksagung</title>
+		<p>Er hörte leise Schritte hinter sich. Das bedeutete nichts Gutes. Wer
+		würde ihm schon folgen, spät in der Nacht und dazu noch in dieser engen
+		Gasse mitten im übel beleumundeten Hafenviertel? Gerade jetzt, wo er das
+		Ding seines Lebens gedreht hatte und mit der Beute verschwinden wollte!
+		Hatte einer seiner zahllosen Kollegen dieselbe Idee gehabt, ihn
+		beobachtet und abgewartet, um ihn nun um die Früchte seiner Arbeit zu
+		erleichtern? Oder gehörten die Schritte hinter ihm zu einem der
+		unzähligen Gesetzeshüter dieser Stadt, und die stählerne Acht um seine
+		Handgelenke würde gleich zuschnappen? Er konnte die Aufforderung stehen
+		zu bleiben schon hören. Gehetzt sah er sich um. Plötzlich erblickte er
+		den schmalen Durchgang. Blitzartig drehte er sich nach rechts und
+		verschwand zwischen den beiden Gebäuden. Beinahe wäre er dabei über den
+		umgestürzten Mülleimer gefallen, der mitten im Weg lag. Er versuchte,
+		sich in der Dunkelheit seinen Weg zu ertasten und erstarrte: Anscheinend
+		gab es keinen anderen Ausweg aus diesem kleinen Hof als den Durchgang,
+		durch den er gekommen war. Die Schritte wurden lauter und lauter, er sah
+		eine dunkle Gestalt um die Ecke biegen. Fieberhaft irrten seine Augen
+		durch die nächtliche Dunkelheit und suchten einen Ausweg.<fn id="fn_01"
+          symbol="*">
+		<p>We also thank Mr. Tsuyoshi Haibara for his assistance in the
+		preparation of the manuscript.</p></fn>
+		</p>
+		<p>We are grateful to Ms. Kylie Kendall for her beautiful artwork and
+		general assistance in helping us finish this huge project on time. The editorial 
+		team of HTWK Hochschulverlag for this book, Drs. Elisa Editor, Agata Author-Query, 
+		Marek Markup and Ms. Irmina Indent deserves more thanks than we can give for 
+		their enthusiastic approach, expert guidance and professionalism in overseeing 
+		the publication of this book.</p>
+    </ack>
+	
+	<!-- Glossary -->
+    <glossary content-type="Abkuerzungen">
+		<title>Abkürzungsverzeichnis</title>
+		<def-list>
+			<def-item>
+				<term>BF</term>
+				<def>
+					<p>Bestandsfeld</p>
+				</def>
+			</def-item>
+
+			<def-item>
+				<term>CFD</term>
+				<def>
+					<p>Computational Fluid Dynamics</p>
+				</def>
+			</def-item>
+
+			<def-item>
+				<term>DES</term>
+				<def>
+					<p>Detached Eddy Simulation</p>
+				</def>
+			</def-item>
+
+			<def-item>
+				<term>DN</term>
+				<def>
+					<p>Nenndurchmesser</p>
+				</def>
+			</def-item>
+
+			<def-item>
+				<term>DNS</term>
+				<def>
+					<p>Direct Numerical Simulation</p>
+				</def>
+			</def-item>
+
+			<def-item>
+				<term>EE</term>
+				<def>
+					<p>Entnahmeeinrichtung</p>
+				</def>
+			</def-item>
+
+			<def-item>
+				<term>FD</term>
+				<def>
+					<p>Finite Differenzen</p>
+				</def>
+			</def-item>
+
+			<def-item>
+				<term>FE</term>
+				<def>
+					<p>Finite Elemente</p>
+				</def>
+			</def-item>
+
+			<def-item>
+				<term>FV</term>
+				<def>
+					<p>Finite Volumen</p>
+				</def>
+			</def-item>
+
+			<def-item>
+				<term>GA</term>
+				<def>
+					<p>Grundablass</p>
+				</def>
+			</def-item>
+
+			<def-item>
+				<term>HWBF</term>
+				<def>
+					<p>Hochwasserbemessungsfall</p>
+				</def>
+			</def-item>
+
+			<def-item>
+				<term>HWE</term>
+				<def>
+					<p>Hochwasserentlastungsanlage</p>
+				</def>
+			</def-item>
+
+			<def-item>
+				<term>HQ</term>
+				<def>
+					<p>Hochwasserabfluss</p>
+				</def>
+			</def-item>
+
+			<def-item>
+				<term>HQ<sub>max</sub></term>
+				<def>
+					<p>maximaler Hochwasserabfluss</p>
+				</def>
+			</def-item>
+		</def-list>
+    </glossary>
+    <glossary content-type="Formeln">
+            <title>Formelzeichen</title>
+            <def-list>
+                <title>Große lateinische Buchstaben</title>
+                <def-item>
+                    <term>A<sub>s</sub></term>
+                    <def>
+                        <p>Querschnittsfläche des Bewehrungsstahls</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>A<sub>L</sub></term>
+                    <def>
+                        <p>Querschnittsfläche der aufgeklebten CFK-Lamelle</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>E<sub>cm</sub></term>
+                    <def>
+                        <p>mittlerer Elastizitätsmodul des Betons</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>E<sub>d</sub></term>
+                    <def>
+                        <p>Bemessungswert der Einwirkung</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>E<sub>Lm</sub></term>
+                    <def>
+                        <p>Mittelwert des Elastizitätsmoduls der aufgeklebten CFK-Lamelle</p>
+                    </def>
+                </def-item>
+            </def-list>
+            <def-list>
+                <title>Kleine lateinische Buchstaben</title>
+                <def-item>
+                    <term>a</term>
+                    <def>
+                        <p>Angriffspunkt der Betondruckkraft (Abstand vom oberen
+                            Querschnittsrand)</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>b</term>
+                    <def>
+                        <p>Breite des Querschnitts</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>b<sub>L</sub></term>
+                    <def>
+                        <p>Lamellenbreite</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>d</term>
+                    <def>
+                        <p>statische Höhe der Biegezugbewehrung</p>
+                    </def>
+                </def-item>
+                <def-item>
+                    <term>d<sub>L</sub></term>
+                    <def>
+                        <p>statische Höhe der aufgeklebten CFK-Lamelle</p>
+                    </def>
+                </def-item>
+            </def-list>
+            <def-list>
+            </def-list>
+    	 </glossary>
+</front-matter>
+
+<!-- Book content starts here -->
+<book-body>
+
+	<!-- This book is divided into two parts. -->
+	<book-part book-part-type="part" id="b_7890123456789_part_001">
+      
+		<!-- Book part metadata -->
+		<book-part-meta>
+			<title-group>
+				<label>Teil 1</label>
+				<title>Überschriften-Hierarchien</title>
+			</title-group>
+		</book-part-meta>
+
+		<!-- Book part body -->
+		<body>
+        <!-- The book part contains several chapters, also tagged with the element <book-part>.
+                     This chapter shows the heading hierarchy. -->
+
+        <book-part book-part-type="chapter"
+                   id="b_7890123456789_part_001_chapter_001">
+				   
+			<!-- Chapter metadata -->
+			<book-part-meta>
+				<book-part-id book-part-id-type="doi">1.2345/123456789</book-part-id>
+				<!-- So this is heading level 1. -->
+				<title-group>
+					<label>1</label>
+					<title>Überschrift der ersten Ordnung</title>
+				</title-group>
+			</book-part-meta>
+
+          <!-- Content of the chapter -->
+			<body>
+				<p>Wasserbauliche Anlagen wie Talsperren oder
+				Hochwasserrückhaltebecken sind in der Regel teure Bauwerke. Je
+				nach Projekt entstehen schnell Kosten in Höhe von einigen
+				Hunderttausend bis hin zu mehreren hundert Millionen Euro.
+				Talsperren erfüllen u. a. Aufgaben wie Trinkwasserbereitstellung
+				und Energiegewinnung. Ferner dienen sie wie
+				Hochwasserrückhaltebecken auch dem Hochwasserschutz.</p>
+
+			<!-- Heading level 2 -->
+				<sec id="b_7890123456789_part_001_chapter_001_001" sec-type="TOC">
+					<label>1.1</label>
+					<title>Überschrift der zweiten Ordnung</title>
+
+						<p>Ferner dienen sie wie Hochwasserrückhaltebe-cken auch dem
+						Hochwasserschutz. Dabei staut ein Absperrbauwerk (Staumauer,
+						Staudamm) große Wassermengen auf. Diese werden
+						zwischengespeichert und den Flüssen nach Abklingen des
+						Hochwassers wieder kontrolliert zugeführt. Die Speicherung des
+						Wassers bewirkt die Kappung der Scheitelabflüsse, wodurch
+						schadhafte Überschwemmungen verhindert werden. Die
+						Dimensionierung solcher Anlagen beruht zum einen auf der
+						statistischen Auswertung zurückliegender Hochwasserereignisse,
+						anhand derer die jeweiligen hydrologischen Daten zur Verfügung
+						gestellt werden. Zum anderen erfolgt der Entwurf in Abhängigkeit
+						des stromab der Anlagen vorhandenen Schadenspotentials. Aus
+						wirtschaftlichen Gründen ist ein absoluter Schutz jedoch nicht
+						möglich. Im Fall extremer Hochwasserereignisse, wie jüngst 2013
+						in Sach-sen zu beobachten war, können die den Talsperren und
+						Hochwasserrückhaltebecken zufließenden Wassermengen nicht
+						vollständig zwischengespeichert werden. In diesem Fall wird das
+						überschüssige Wasser über Hochwasserentlastungsanlagen (HWE) in
+						den Unterlauf abgeführt.</p>
+						<p>Hochwasserentlastungsanlagen dienen nicht dem Schutz
+						unterhalb liegender Industrie- und Siedlungsgebiete, denn die
+						erhöhten Abgaben aus den Speichern während eines extremen
+						Hochwassers gehen ohnehin mit schadhaften Ausuferungen einher.
+						Vielmehr besteht die Aufgabe darin, ein Überströmen der
+						Absperrbauwerke zu verhindern und das Wasser kontrolliert
+						abzuleiten. Unkontrollierte Abflüsse über die Krone von
+						Sperrbauwerken können starke Erosionen an Dammbauwerken
+						hervorrufen, was ein Versagen der Anlagen nach sich ziehen kann.
+						Nach <xref ref-type="bibr" rid="b_7890123456789_ref_001">[Aigner, D., 
+						Bollrich, G., 2015]</xref> ist etwa ein Drittel der im vergangenen
+						Jahrhundert eingetretenen Brüche von Talsperren auf ein
+						Überströmen des Absperrbauwerkes zurückzuführen, was das
+						Erfordernis einer sorgfältigen Planung und Dimensionierung von
+						Hochwasserentlastungsanlagen noch deutlicher macht.
+						Hochwasserentlastungen dienen somit dem Schutz des
+						Absperrbauwerkes selbst.</p>
+
+			<!-- Heading level 3 -->
+				<sec id="b_7890123456789_part_001_chapter_001_001_001" sec-type="TOC">
+					<label>1.1.1</label>
+					<title>Überschrift der dritten Ordnung</title>
+
+						<p>Planungsfehler oder nicht optimale Dimensionierungen führen
+						meist zu aufwendigen und kostspieligen Sanierungs- oder
+						Nachrüstungsmaßnahmen. Ferner hätte ein Versagen des
+						Absperrbauwerkes im Extremfall katastrophale Auswirkungen und
+						muss mit größtmöglicher Wahrscheinlichkeit ausgeschlossen
+						werden. Aus diesem Grund müssen die hydraulischen Ansprüche an
+						die geplanten Wasserbauwerke vor der Errichtung sorgfältig
+						definiert werden. Die komplexen dreidimensionalen Strömungen
+						erfordern Verfahren, die eine hohe Genauigkeit aufweisen. Die
+						zahlreichen Ausführungsmöglichkeiten von
+						Hochwasserentlastungen schließen eine Schematisierung und
+						technische Standardisierung nahezu aus. Einfache rechnerische
+						Nachweise auf Basis empirisch ermittelter Formeln reichen
+						meist nicht aus. Selbst erprobte Lösungen können aufgrund der
+						variierenden örtlichen Gegebenheiten (Hydrologie, Geologie,
+						Geländemorphologie, Bauwerkstyp, etc.) nur selten auf neue
+						Entwürfe übertragen werden. Zwar ist die exakte Beschreibung
+						von Strömungsvorgängen seit etwa Mitte des 19. Jahrhunderts
+						rechnerisch theoretisch möglich, die aufgestellten
+						Strömungsgleichungen sind jedoch so komplex, dass sie
+						analytisch bisher nur für einfachste Spezialfälle gelöst
+						werden konnten. Daher bediente man sich in der Vergangenheit
+						physikalischer Modelle, die zur Bewertung der
+						Strömungsvorgänge sehr gut geeignet sind. Nachteilig ist
+						jedoch der damit verbundene hohe finanzielle als auch
+						zeitliche Aufwand. Aus der rasanten Entwicklung
+						leistungsfähiger Computer in den zurückliegenden Jahrzehnten
+						ging eine alternative Möglichkeit zur verlässlichen
+						Beschreibung der physikalischen Prozesse in Strömungen hervor,
+						die numerische Strömungsberechnung (engl. Computational Fluid
+						Dynamics, CFD). Dabei werden die bekannten
+						Strömungsgleichungen mit Hilfe mathematischer Modelle
+						numerisch berechnet.</p>
+
+			<!-- Heading level 4 -->
+				<sec id="b_7890123456789_part_001_chapter_001_001_001_001" sec-type="TOC">
+					<label>1.1.1.1</label>
+					<title>Überschrift der vierten Ordnung</title>
+
+						<p>Selbst erprobte Lösungen können aufgrund der variierenden
+						örtlichen Gegebenheiten (Hydrologie, Geologie,
+						Geländemorphologie, Bauwerkstyp, etc.) nur selten auf neue
+						Entwürfe übertragen werden. Zwar ist die exakte Beschreibung
+						von Strömungsvorgängen seit etwa Mitte des 19. Jahrhunderts
+						rechnerisch theoretisch möglich, die aufgestellten
+						Strömungsgleichungen sind jedoch so komplex, dass sie
+						analytisch bisher nur für einfachste Spezialfälle gelöst
+						werden konnten. Daher bediente man sich in der Vergangenheit
+						physikalischer Modelle, die zur Bewertung der
+						Strömungsvorgänge sehr gut geeignet sind. Nachteilig ist
+						jedoch der damit verbundene hohe finanzielle als auch
+						zeitliche Aufwand. Aus der rasanten Entwicklung
+						leistungsfähiger Computer in den zurückliegenden Jahrzehnten
+						ging eine alternative Möglichkeit zur verlässlichen
+						Beschreibung der physikalischen Prozesse in Strömungen
+						hervor, die numerische Strömungsberechnung (engl.
+						Computational Fluid Dynamics, CFD). Dabei werden die
+						bekannten Strömungsgleichungen mit Hilfe mathematischer
+						Modelle numerisch berechnet.</p>
+
+				<!-- Heading level 5 -->
+				<sec id="b_7890123456789_part_001_chapter_001_001_001_001_001" sec-type="TOC">
+					<label>1.1.1.1.1</label>
+                    <title>Überschrift der fünften Ordnung</title>
+
+                    <p>Trotz der steten Weiterentwicklung der Rechentechnik,
+                    der mathematisch numerischen Modelle sowie der
+                    Computerprogramme erlaubt die Anwendung von CFD bereits
+                    heute die Berechnung hoch komplexer Strömungen aus den
+                    unterschiedlichsten Bereichen wie Industrie, Forschung und
+                    Umwelt. Zusätzlich zu den physikalischen Modellierungen
+                    nehmen Computersimulationen in Hinblick auf Kosten und
+                    Zeit auch im Rahmen der Optimierung neu zu errichtender
+                    aber auch bestehender Hochwasserentlastungsanlagen einen
+                    zunehmend höheren Stellenwert ein.</p>
+				</sec>
+
+				<!-- Another heading level 5 -->
+
+				<sec id="b_7890123456789_part_001_chapter_001_001_001_001_002" sec-type="TOC">
+					<label>1.1.1.1.2</label>
+                    <title>Eine weitere Überschrift der fünften Ordnung</title>
+
+                    <p>Zusätzlich zu den physikalischen Modellierungen nehmen
+                    Computersimulationen in Hinblick auf Kosten und Zeit auch
+                    im Rahmen der Optimierung neu zu errichtender aber auch
+                    bestehender Hochwasserentlastungsanlagen einen zunehmend
+                    höheren Stellenwert ein.</p>
+				</sec>
+			</sec>
+
+				<!-- Another heading level 4 -->
+				<sec id="b_7890123456789_part_001_chapter_001_001_001_002" sec-type="TOC">
+					<label>1.1.1.2</label>
+					<title>Eine weitere Überschrift der vierten Ordnung</title>
+
+					<p>Selbst erprobte Lösungen können aufgrund der variierenden
+					örtlichen Gegebenheiten (Hydrologie, Geologie,
+					Geländemorphologie, Bauwerkstyp, etc.) nur selten auf neue
+					Entwürfe übertragen werden. Zwar ist die exakte Beschreibung
+					von Strömungsvorgängen seit etwa Mitte des 19. Jahrhunderts
+					rechnerisch theoretisch möglich, die aufgestellten
+					Strömungsgleichungen sind jedoch so komplex, dass sie
+					analytisch bisher nur für einfachste Spezialfälle gelöst
+					werden konnten.</p>
+                </sec>
+			</sec>
+
+			<!-- Another heading level 3 -->
+				<sec id="b_7890123456789_part_001_chapter_001_001_002" sec-type="TOC">
+				<label>1.1.2</label>
+				<title>Eine weitere Überschrift der dritten Ordnung</title>
+
+                <p>Die in jüngster Vergangenheit vermehrt beobachteten
+                Hochwasserereignisse geben Anlass, die bestehenden
+                hydrologischen Grundlagen der Talsperren zu überprüfen. Die
+                daraus resultierenden aktuellen und teilweise deutlich höheren
+                Abflusswerte machen die Untersuchung der Leistungsfähigkeit
+                der Hochwasserentlastungen durch die Anlagenbetreiber
+                erforderlich. Für die Bestimmung des Abflussvermögens sind
+                Retentionsberechnungen und damit einhergehend verlässliche
+                Schlüsselkurven unverzichtbar. Entweder sind diese jedoch gar
+                nicht vorhanden oder beruhen häufig auf einfachen analytischen
+                Berechnungen, die aufgrund der zum Teil komplizierten
+                Bauwerksgeometrien mit Unsicherheiten behaftet sind. Neben
+                physikalischen Modellen kommen zur Ermittlung des
+                Abflussvermögens zunehmend numerische Modellierungen zum
+                Einsatz (z. B. <xref ref-type="bibr" rid="b_7890123456789_ref_002">
+				[SAS IP 2015]</xref>). Darüber hinaus
+                bieten numerische Strömungsberechnungen im Rahmen der Planung
+                neu zu errichtender Bauwerke, aber auch im Zuge der Anpassung
+                bestehender Bauwerkskonstruktionen ein geeignetes
+                Hilfsmittel.</p>
+
+                <p>Für die im Freistaat Sachsen etwa 25 km südwestlich von
+                Dresden gelegene Talsperre Lehnmühle ergab die Überarbeitung
+                der Hochwasserstatistik eine nicht zu vernachlässigende
+                Erhöhung der hydrologischen Kennwerte. Aus der Überprüfung der
+                vorhandenen Leistungsfähigkeit der Hochwasserentlastung, die
+                zu 123 m<sup>3</sup>/s bestimmt wurde, ging ein Defizit von
+                mehr als 40 % hervor. Damit entspricht sie nicht mehr den
+                heutigen Anforderungen, ein Überströmen der Anlage ist nicht
+                mehr mit der erforderlichen Wahrscheinlichkeit auszuschließen.
+                Daraufhin erfolgten am Institut für Wasserbau und
+                Siedlungswasserwirtschaft an der Hochschule für Technik,
+                Wirtschaft und Kultur Leipzig hydraulische Modellversuche zur
+                Wiedererstellung der Überflutungssicherheit <xref ref-type="bibr" 
+				rid="b_7890123456789_ref_008">[acadoo 2019]</xref>.</p>
+				
+				<subtitle>Das ist eine Zwischenüberschrift ohne Nummerierung</subtitle>
+
+                <p>Die Modellversuche sahen die Ertüchtigung der
+                Überfallgeometrie vor. Die Untersuchung der
+                Energieumwandlungsanlage war nicht Gegenstand der Studie. Es
+                ist jedoch zu erwarten, dass die erhöhten Abflussmengen eine
+                deutlich höhere Beanspruchung des Tosbeckens nach sich ziehen.
+                Dies gab den Anlass zur vorliegenden Arbeit. Auf Grundlage
+                dreidimensionaler numerischer Berechnungen sollte das
+                Tosbecken überprüft und gegebenenfalls optimiert werden.</p>
+			</sec>
+		</sec>
+
+            <!-- Another heading level 2
+                 with a heading level 3 directly following -->
+			<sec id="b_7890123456789_part_001_chapter_001_002" sec-type="TOC">
+				<label>1.2</label>
+				<title>Eine weitere Überschrift der zweiten Ordnung</title>
+
+			<sec id="b_7890123456789_part_001_chapter_001_002_001" sec-type="TOC">
+					<label>1.2.1</label>
+					<title>Eine weitere Überschrift der dritten Ordnung, direkt 
+					nach einer Überschrift zweiter Ordnung</title>
+
+					<p>Die in jüngster Vergangenheit vermehrt beobachteten
+					Hochwasserereignisse geben Anlass, die bestehenden
+					hydrologischen Grundlagen der Talsperren zu überprüfen. Die
+					daraus resultierenden aktuellen und teilweise deutlich höheren
+					Abflusswerte machen die Untersuchung der Leistungsfähigkeit
+					der Hochwasserentlastungen durch die Anlagenbetreiber
+					erforderlich. Für die Bestimmung des Abflussvermögens sind
+					Retentionsberechnungen und damit einhergehend verlässliche
+					Schlüsselkurven unverzichtbar. Entweder sind diese jedoch gar
+					nicht vorhanden oder beruhen häufig auf einfachen analytischen
+					Berechnungen, die aufgrund der zum Teil komplizierten
+					Bauwerksgeometrien mit Unsicherheiten behaftet sind. Neben
+					physikalischen Modellen kommen zur Ermittlung des
+					Abflussvermögens zunehmend numerische Modellierungen zum
+					Einsatz. Darüber hinaus
+					bieten numerische Strömungsberechnungen im Rahmen der Planung
+					neu zu errichtender Bauwerke, aber auch im Zuge der Anpassung
+					bestehender Bauwerkskonstruktionen ein geeignetes
+					Hilfsmittel.</p>
+				</sec>
+
+				<sec id="b_7890123456789_part_001_chapter_001_002_002" sec-type="TOC">
+					<label>1.2.2</label>
+					<title>Eine weitere Überschrift der dritten Ordnung</title>
+
+					<p>Für die im Freistaat Sachsen etwa 25 km südwestlich von
+					Dresden gelegene Talsperre Lehnmühle ergab die Überarbeitung
+					der Hochwasserstatistik eine nicht zu vernachlässigende
+					Erhöhung der hydrologischen Kennwerte. Aus der Überprüfung der
+					vorhandenen Leistungsfähigkeit der Hochwasserentlastung, die
+					zu 123 m<sup>3</sup>/s bestimmt wurde, ging ein Defizit von
+					mehr als 40 % hervor. Damit entspricht sie nicht mehr den
+					heutigen Anforderungen, ein Überströmen der Anlage ist nicht
+					mehr mit der erforderlichen Wahrscheinlichkeit auszuschließen.
+					Daraufhin erfolgten am Institut für Wasserbau und
+					Siedlungswasserwirtschaft an der Hochschule für Technik,
+					Wirtschaft und Kultur Leipzig hydraulische Modellversuche zur
+					Wiedererstellung der Überflutungssicherheit.</p>
+
+					<p>Die Modellversuche sahen die Ertüchtigung der
+					Überfallgeometrie vor. Die Untersuchung der
+					Energieumwandlungsanlage war nicht Gegenstand der Studie. Es
+					ist jedoch zu erwarten, dass die erhöhten Abflussmengen eine
+					deutlich höhere Beanspruchung des Tosbeckens nach sich ziehen.
+					Dies gab den Anlass zur vorliegenden Arbeit. Auf Grundlage
+					dreidimensionaler numerischer Berechnungen sollte das
+					Tosbecken überprüft und gegebenenfalls optimiert werden.</p>
+				</sec>
+			</sec>
+			</body>
+		</book-part>
+		</body>
+	</book-part>
+
+	<!-- The second book part -->
+	<book-part book-part-type="part" id="b_7890123456789_part_002">
+		
+		<!-- Book part metadata -->
+		<book-part-meta>
+			<title-group>
+				<label>Teil 2</label>
+				<title>Elemente einer Open-Access-Publikation</title>
+			</title-group>
+		</book-part-meta>
+
+		<!-- Book part body -->
+		<body>
+		
+        <!-- This chapter deals with elements that can be included in publications. -->
+        <book-part book-part-type="chapter"
+                   id="b_7890123456789_part_002_chapter_002">
+			
+			<!-- Chapter metadata -->
+			<book-part-meta>
+				<book-part-id book-part-id-type="doi">2.3456/123456789</book-part-id>
+				<title-group>
+					<label>2</label>
+					<title>Elemente</title>
+				</title-group>		
+			</book-part-meta>
+
+			<body>
+            <!-- This section contains general emphasis tags. -->
+			<sec id="b_7890123456789_part_002_chapter_002_001" sec-type="TOC">
+				<label>2.1</label>
+				<title>Textauszeichnungen</title>
+				<p>Die in jüngster Vergangenheit vermehrt beobachteten
+				Hochwasserereignisse geben Anlass, die bestehenden
+				hydrologischen Grundlagen der Talsperren zu überprüfen. Die
+				daraus resultierenden aktuellen und teilweise deutlich höheren
+				Abflusswerte machen die Untersuchung der Leistungsfähigkeit der
+				Hochwasserentlastungen durch die Anlagenbetreiber erforderlich.
+				Für die Bestimmung des Abflussvermögens sind
+				<sc>Retentionsberechnungen</sc> und damit einhergehend
+				verlässliche Schlüsselkurven unverzichtbar. Entweder sind diese
+				jedoch gar nicht vorhanden oder beruhen häufig auf einfachen
+				analytischen Berechnungen, die aufgrund der zum Teil
+				komplizierten Bauwerksgeometrien mit Unsicherheiten behaftet
+				sind. Neben physikalischen Modellen kommen zur Ermittlung des
+				Abflussvermögens zunehmend <bold>numerische
+				Modellierungen</bold> zum Einsatz. Darüber hinaus bieten numerische 
+				Strömungsberechnungen im Rahmen der Planung neu zu errichtender Bauwerke, 
+				aber auch im Zuge der Anpassung bestehender Bauwerkskonstruktionen ein
+				geeignetes Hilfsmittel.</p>
+
+				<p>Wie eingangs schon erwähnt, waren <monospace>physikalische
+				Modelle</monospace> lange Zeit die einzige Möglichkeit, komplexe
+				Strömungsvorgänge zu erfassen und zu bewerten. Die Untersuchung 
+				des physikalischen Verhaltens von Fluiden
+				(Flüssigkeiten und Gase) erfolgt auf dem Gebiet der
+				Strömungsmechanik, auch Fluidmechanik genannt. Theoretisch
+				können Strömungsvorgänge durch <sc>Strömungsgleichungen</sc>
+				(siehe <xref ref-type="chapter" rid="b_7890123456789_part_001_chapter_001_001">
+				Kapitel 1.1</xref>) exakt beschrieben werden, wenngleich die
+				analytische Lösung dieser Gleichungen nur für einfachste
+				Strömungen möglich ist. Da jedoch nahezu alle Anwendungen sehr
+				viel komplexer sind und diese einfachen Strömungen somit
+				praktisch nicht existieren, wurden und werden verschiedene
+				<italic>Strömungsvorgänge</italic> auf Grundlage von
+				Experimenten in Formeln überführt. Diese setzen bestimmte
+				Bedingungen voraus und beruhen überwiegend auf empirisch
+				ermittelten Beiwerten. Während damit für einige Anwendungsfälle
+				realitätsnahe Ergebnisse erzielt werden können, sind diese mit
+				steigender Komplexität mit größeren Unsicherheiten behaftet.
+				Deshalb erfolgte die Erfassung komplexer Strömungen lange
+				ausschließlich mit Hilfe physikalischer Modelle.</p>
+            </sec>
+
+            <!-- This section shows how footnotes look like. -->
+			<sec id="b_7890123456789_part_002_chapter_002_002" sec-type="TOC">
+				<label>2.2</label>
+				<title>Fußnoten</title>
+
+				<p>Die in jüngster Vergangenheit vermehrt beobachteten
+				Hochwasserereignisse geben Anlass, die bestehenden
+				hydrologischen Grundlagen der Talsperren zu überprüfen. Die
+				daraus resultierenden aktuellen und teilweise deutlich höheren
+				Abflusswerte machen die Untersuchung der Leistungsfähigkeit der
+				Hochwasserentlastungen durch die Anlagenbetreiber erforderlich.
+				Für die Bestimmung des Abflussvermögens sind
+				Retentionsberechnungen und damit einhergehend verlässliche
+				Schlüsselkurven unverzichtbar.<fn id="b_7890123456789_part_002_chapter_002_fn_001" symbol="1">
+				<p><xref ref-type="bibr" rid="b_7890123456789_ref_005">[Blind, H. 1987]</xref></p>
+                </fn> Für die im Freistaat Sachsen etwa 25 km südwestlich von
+				Dresden gelegene Talsperre Lehnmühle ergab die Überarbeitung der
+				Hochwasserstatistik eine nicht zu vernachlässigende Erhöhung der
+				hydrologischen Kennwerte.<fn id="b_7890123456789_part_002_chapter_002_fn_002" symbol="2">
+				<p>Die nachfolgenden Erläuterungen geben einen Einblick in
+				die umfangreiche und anspruchsvolle Thematik der numerischen
+				Strömungsberechnung, ohne sich dabei zu sehr in
+				mathematischen Details zu verlieren.</p>
+                </fn> Entweder sind diese jedoch gar nicht vorhanden oder
+				beruhen häufig auf einfachen analytischen Berechnungen, die
+				aufgrund der zum Teil komplizierten Bauwerksgeometrien mit
+				Unsicherheiten behaftet sind.</p>
+
+				<p>Die Modellversuche sahen die Ertüchtigung der
+				Überfallgeometrie vor. Die Untersuchung der
+				Energieumwandlungsanlage war nicht Gegenstand der Studie. Es ist
+				jedoch zu erwarten, dass die erhöhten Abflussmengen eine
+				deutlich höhere Beanspruchung des Tosbeckens nach sich ziehen.
+				Dies gab den Anlass zur vorliegenden Arbeit. Auf Grundlage
+				dreidimensionaler numerischer Berechnungen sollte das Tosbecken
+				überprüft und gegebenenfalls optimiert werden.<fn id="b_7890123456789_part_002_chapter_002_fn_003" symbol="3">
+				<p>This is a footnote</p></fn></p>
+
+				<p>Aus
+				wirtschaftlichen Gründen ist ein absoluter Schutz jedoch nicht
+				möglich.<fn id="b_7890123456789_part_002_chapter_002_fn_004" symbol="4">
+				<p> Die Modellversuche sahen die Ertüchtigung der
+				Überfallgeometrie vor. Die Untersuchung der
+				Energieumwandlungsanlage war nicht Gegenstand der
+				Studie.</p></fn>Im Fall extremer Hochwasserereignisse, wie jüngst 2013
+				in Sachsen zu beobachten war, können die den Talsperren und
+				Hochwasserrückhaltebecken zufließenden Wassermengen nicht
+				vollständig zwischengespeichert werden.<fn id="b_7890123456789_part_002_chapter_002_fn_005" symbol="5">
+				<p>Zum anderen erfolgt der Entwurf in Abhängigkeit des
+				stromab der Anlagen vorhandenen Schadenspotentials.</p>
+                </fn> In diesem Fall wird das überschüssige Wasser über 
+				Hochwasserentlastungsanlagen (HWE) in den Unterlauf abgeführt.</p>
+            </sec>
+			</body>
+		</book-part>
+
+        <!-- This chapter contains further elements that can appear in academic publications. -->
+        <book-part book-part-type="chapter"
+                   id="b_7890123456789_part_002_chapter_003">
+				   
+			<!-- Chapter metadata -->
+			<book-part-meta>
+				<book-part-id book-part-id-type="doi">3.4567/123456789</book-part-id>
+				<title-group>
+					<label>3</label>
+					<title>Weitere Elemente</title>
+				</title-group>			
+			</book-part-meta>
+
+			<body>
+            <!-- This section contains quotations. -->
+			<sec id="b_7890123456789_part_002_chapter_003_001" sec-type="TOC">
+				<label>3.1</label>
+				<title>Zitate</title>
+				<disp-quote>
+					<p>“Life isn't just about taking in oxygen and giving out
+					carbon dioxide.”
+					<fn id="b_7890123456789_part_002_chapter_003_fn_006"
+                    symbol="6">
+						<p>Thus quote is from Malala Yousafzai.</p>
+					</fn></p>
+				</disp-quote>
+
+				<p>Trotz der steten Weiterentwicklung der Rechentechnik, der
+				mathematisch numerischen Modelle sowie der Computerprogramme
+				erlaubt die Anwendung von CFD bereits heute die Berechnung hoch
+				komplexer Strömungen aus den unterschiedlichsten Bereichen wie
+				Industrie, Forschung und Umwelt. Zusätzlich zu den
+				physikalischen Modellierungen nehmen Computersimulationen in
+				Hinblick auf Kosten und Zeit auch im Rahmen der Optimierung neu
+				zu errichtender aber auch bestehender
+				Hochwasserentlastungsanlagen einen zunehmend höheren Stellenwert
+				ein.</p>
+
+				<disp-quote>
+					<p>“When we speak we are afraid our words will not be heard or
+					welcomed. But when we are silent, we are still afraid. So it
+					is better to speak.”</p>
+					<attrib>Audre Lorde</attrib>
+				</disp-quote>
+
+				<p>Ferner dienen sie wie Hochwasserrückhaltebecken auch dem
+				Hochwasserschutz. Dabei staut ein Absperrbauwerk (Staumauer,
+				Staudamm) große Wassermengen auf. Diese werden
+				zwischengespeichert und den Flüssen nach Abklingen des
+				Hochwassers wieder kontrolliert zugeführt. Die Speicherung des
+				Wassers bewirkt die Kappung der Scheitelabflüsse, wodurch
+				schadhafte Überschwemmungen verhindert werden. Die
+				Dimensionierung solcher Anlagen beruht zum einen auf der
+				statistischen Auswertung zurückliegender Hochwasserereignisse,
+				anhand derer die jeweiligen hydrologischen Daten zur Verfügung
+				gestellt werden. Zum anderen erfolgt der Entwurf in Abhängigkeit
+				des stromab der Anlagen vorhandenen Schadenspotentials.</p>
+            </sec>
+
+            <!-- This section demonstrates the use of lists and how the different types are tagged. -->
+			<sec id="b_7890123456789_part_002_chapter_003_002" sec-type="TOC">
+				<label>3.2</label>
+				<title>Listen und Aufzählungen</title>
+
+				<p>Trotz der steten Weiterentwicklung der Rechentechnik, der
+				mathematisch numerischen Modelle sowie der Computerprogramme
+				erlaubt die Anwendung von CFD bereits heute die Berechnung hoch
+				komplexer Strömungen aus den unterschiedlichsten Bereichen wie
+				Industrie, Forschung und Umwelt. Zusätzlich zu den
+				physikalischen Modellierungen nehmen Computersimulationen in
+				Hinblick auf Kosten und Zeit auch im Rahmen der Optimierung neu
+				zu errichtender aber auch bestehender
+				Hochwasserentlastungsanlagen einen zunehmend höheren Stellenwert
+				ein.</p>
+
+				<!-- List with dashes -->
+				<list list-type="bullet">
+					<title>Cities</title>
+					<list-item>
+						<p>Leipzig</p>
+					</list-item>
+					<list-item>
+						<p>Kigali</p>
+					</list-item>
+					<list-item>
+						<p>London</p>
+					</list-item>
+					<list-item>
+						<p>Tokyo</p>
+					</list-item>
+					<list-item>
+						<p>Amsterdam</p>
+					</list-item>
+					<list-item>
+						<p>Johannesburg</p>
+					</list-item>
+					<list-item>
+						<p>New York</p>
+						<list list-type="bullet">
+							<list-item>
+								<p>Leipzig</p>
+							</list-item>
+							<list-item>
+								<p>Kigali</p>
+							</list-item>
+						</list>
+					</list-item>
+				</list>
+
+				<p>Neben physikalischen können heutzutage insbesondere
+				dreidimensionale numerische Strömungsmodelle, Erfahrung des
+				Ingenieurs vorausgesetzt, die oft sehr komplexen Strömungen gut
+				abbilden. Zur Gewährleistung gesicherter Ergebnisse bedürfen
+				numerische Modelle jedoch immer einer Kalibrierung bzw.
+				Validierung. Liegen hierzu gesicherte Daten vor, ist die
+				numerische Strömungssimulation den physikalischen
+				Modellversuchen häufig vorzuziehen. Denn während physikalische
+				Modelle vor allem bei kleinen Maßstabszahlen und komplizierten
+				Geometrien sowie in Erwartung einer umfangreichen
+				Variantenuntersuchung einen großen zeitlichen als auch
+				finanziellen Aufwand bedeuten, bieten numerische Modelle oftmals
+				eine merklich effizientere Bearbeitung.</p>
+
+				<!-- List with numbers -->
+				<list list-type="order">
+					<list-item>
+						<p>First list item</p>
+					</list-item>
+					<list-item>
+						<p>Second list item</p>
+					</list-item>
+					<list-item>
+						<p>Here comes the third list item</p>
+					</list-item>
+					<list-item>
+						<p>Last list item</p>
+					</list-item>
+				</list>
+
+				<p>Im Rahmen wasserbaulicher Planungen kommen zur ersten
+				Vorbemessung überwiegend die gängigen Berechnungsformeln zum
+				Einsatz. Da diese jedoch auf empirisch ermittelten Beiwerten
+				beruhen, sind die Ergebnisse lediglich für bestimmte
+				Standardfälle verlässlich. Wasserbauwerke sind jedoch
+				größtenteils Einzellösungen und die Planungen gehen über die
+				Standardfälle hinaus. Selbst bereits vorhandene und erprobte
+				Lösungen können aufgrund der verschiedensten örtlichen
+				Gegebenheiten sowie der unterschiedlichen Anforderungen an das
+				Bauwerk nicht einfach auf eine andere Anlage übertragen werden.
+				Praktisch immer sind komplexe Strömungen zu erwarten.
+				Infolgedessen ist die Planung wasserbaulicher Anlagen vor der
+				Ausführung zu überprüfen und gegebenenfalls zu optimieren.
+				Hierfür eignen sich sowohl physikalische als auch numerische
+				Modelle.</p>
+
+				<!-- List with a lowercase alphabetical character as a prefix character -->
+				<list list-type="alpha-lower">
+					<list-item>
+						<p>strömendes Fluid</p>
+					</list-item>
+					<list-item>
+						<p>komplexe Strömungen</p>
+					</list-item>
+					<list-item>
+						<p>Wasserbau</p>
+					</list-item>
+					<list-item>
+						<p>Wasserbauwerke</p>
+					</list-item>
+					<list-item>
+						<p>Modellgesetz nach Froude</p>
+					</list-item>
+					<list-item>
+						<p>Reibung</p>
+					</list-item>
+				</list>
+
+				<p>Trotz der steten Weiterentwicklung der Rechentechnik, der
+				mathematisch numerischen Modelle sowie der Computerprogramme
+				erlaubt die Anwendung von CFD bereits heute die Berechnung hoch
+				komplexer Strömungen aus den unterschiedlichsten Bereichen wie
+				Industrie, Forschung und Umwelt. Zusätzlich zu den
+				physikalischen Modellierungen nehmen Computersimulationen in
+				Hinblick auf Kosten und Zeit auch im Rahmen der Optimierung neu
+				zu errichtender aber auch bestehender
+				Hochwasserentlastungsanlagen einen zunehmend höheren Stellenwert
+				ein.</p>
+            </sec>
+
+            <!-- This section shows tables. -->
+			<sec id="b_7890123456789_part_002_chapter_003_003" sec-type="TOC">
+				<label>3.3</label>
+				<title>Tabellen</title>
+
+				<p>Ist Wasser das strömende Fluid, so ist die Übertragung von
+				der Natur auf das Modell mit der gleichen Maßstabszahl von mehr
+				als zwei Kräften prinzipiell nicht möglich. Daraus resultierend
+				erfolgt bei wasserbaulichen Modellversuchen die Übertragung der
+				jeweils zwei die Strömung dominierenden Kräfte. In Abhängigkeit
+				der maßgebenden Kräfte wurden verschiedene Modellgesetze
+				formuliert. Im Wasserbau werden in erster Linie Modellversuche
+				für Strömungen mit freier Oberfläche durchgeführt. Dabei wirken
+				vor allem die Trägheit und die Schwerkraft, so dass das
+				Modellgesetz nach Froude zur Anwendung kommt. Dominiert neben
+				der Trägheit hingegen die Reibung, so ist das Modellgesetz nach
+				Reynolds zu verwenden. Darüber hinaus gibt es viele weitere
+				Modellgesetze, die im Wasserbau jedoch eine untergeordnete Rolle
+				spielen.</p>
+
+				<table-wrap id="b_7890123456789_part_002_chapter_003_tab_001" content-type="Tab.Verzeichnis">
+					<object-id pub-id-type="doi">12.34567/123456789-11-T-01</object-id>
+					<label>Tab. 1</label>
+					<caption>
+						<title>Das ist eine Tabellenüberschrift für Tabelle 1</title>
+					</caption>
+					<table>
+						<thead>
+							<tr>
+								<th>City</th>
+								<th>Name</th>
+								<th>Country</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Berlin</td>
+								<td>Barbara</td>
+								<td>Belgien</td>
+							</tr>
+							<tr>
+								<td>Leipzig</td>
+								<td>Lina</td>
+								<td>Litauen</td>
+							</tr>
+							<tr>
+								<td>München</td>
+								<td>Martin</td>
+								<td>Mazedonien</td>
+							</tr>
+							<tr>
+								<td colspan="3">Das ist eine Tabellenzelle, die über ale Spalten der Tabelle geht.</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+
+				<p>Im Rahmen wasserbaulicher Planungen kommen zur ersten
+				Vorbemessung überwiegend die gängigen Berechnungsformeln zum
+				Einsatz. Da diese jedoch auf empirisch ermittelten Beiwerten
+				beruhen, sind die Ergebnisse lediglich für bestimmte
+				Standardfälle verlässlich. Wasserbauwerke sind jedoch
+				größtenteils Einzellösungen und die Planungen gehen über die
+				Standardfälle hinaus. Selbst bereits vorhandene und erprobte
+				Lösungen können aufgrund der verschiedensten örtlichen
+				Gegebenheiten sowie der unterschiedlichen Anforderungen an das
+				Bauwerk nicht einfach auf eine andere Anlage übertragen werden.
+				Praktisch immer sind komplexe Strömungen zu erwarten.
+				Infolgedessen ist die Planung wasserbaulicher Anlagen vor der
+				Ausführung zu überprüfen und gegebenenfalls zu optimieren.
+				Hierfür eignen sich sowohl physikalische als auch numerische
+				Modelle.</p>
+
+				<table-wrap id="b_7890123456789_part_002_chapter_003_tab_002" content-type="Tab.Verzeichnis">
+					<object-id pub-id-type="doi">12.34567/123456789-11-T-02</object-id>
+					<label>Tab. 2</label>
+					<caption>
+						<title>Wasserbauwerke sind jedoch größtenteils Einzellösungen und 
+						die Planungen gehen über die Standardfälle hinaus.</title>
+					</caption>
+					<table>
+						<thead>
+							<tr>
+								<th>File</th>
+								<th>Uncompresses to</th>
+								<th>Description</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="2">taxdump.tar.Z</td>
+								<td>readme.txt</td>
+								<td>A terse description of the dmp files</td>
+							</tr>
+							<tr>
+								<td/>
+								<td>nodes.dmp</td>
+								<td>Structure of the database; lists each taxid with its
+								parent taxid, rank, and other values associated with
+								each node (genetic codes, etc.)</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+            </sec>
+
+            <!-- This section deals with the use of the formula tags. -->
+			<sec id="b_7890123456789_part_002_chapter_003_004" sec-type="TOC">
+				<label>3.4</label>
+				<title>Formeln</title>
+
+			<sec id="b_7890123456789_part_002_chapter_003_004_001" sec-type="TOC">
+				<label>3.4.1</label>
+                <title>Formeln als Grafik</title>
+
+                <p>Dementgegen sollten physikalische Versuche Anwendung
+                finden, wenn Kalibrierungsdaten, beispielsweise bei Neubauten,
+                nicht zur Verfügung stehen und komplexe Strömungsverhältnisse
+                zu prognostizieren sind. Unter Anwendung des passenden
+                Modellgesetzes und eines geeigneten Maßstabes, liefern sie
+                sehr verlässliche Ergebnisse. Stark verkleinerte Nachbildungen
+                (große Maßstabszahlen) ziehen teilweise Maßstabseffekte nach
+                sich und sind zu vermeiden. Auch sollten mit Blick auf die
+                Kosten keine unnötig kleinen Maßstabszahlen gewählt werden.
+                Ein geeigneter Maßstab ist somit ein Kompromiss aus
+                Ergebnisgenauigkeit und anfallenden Kosten. Darüber hinaus
+                beeinflussen weitere Kriterien wie die vorhandene
+                Versuchsfläche oder Pumpenleistung die Wahl des Maßstabes.</p>
+				
+                <disp-formula id="b_9783966270021_eq_001">
+					<label>(1-01)</label>
+					<graphic xlink:href="b_9783966270021_eq_001.png"/>
+                     <mml:math/>
+                    <tex-math/>
+                </disp-formula>
+				
+					<def-list>
+						<title>Mit:</title>
+						<def-item>
+							<term><italic>k</italic> = 1,128</term>
+							<def>
+								<p>empirischer Faktor (eingeführt von Niedermeier)</p>
+							</def>
+						</def-item>
+                    </def-list>
+
+				<p>Dementgegen sollten physikalische Versuche Anwendung
+                finden, wenn Kalibrierungsdaten, beispielsweise bei Neubauten,
+                nicht zur Verfügung stehen und komplexe Strömungsverhältnisse
+                zu prognostizieren sind.</p>
+				
+			</sec>
+			</sec>
+
+            <!-- This section deals with the use of the graphic tags. -->
+			<sec id="b_7890123456789_part_002_chapter_003_005" sec-type="TOC">
+				<label>3.5</label>
+				<title>Abbildungen</title>
+
+                <p>Dementgegen sollten physikalische Versuche Anwendung
+                finden, wenn Kalibrierungsdaten, beispielsweise bei Neubauten,
+                nicht zur Verfügung stehen und komplexe Strömungsverhältnisse
+                zu prognostizieren sind. Unter Anwendung des passenden
+                Modellgesetzes und eines geeigneten Maßstabes, liefern sie
+                sehr verlässliche Ergebnisse.</p>
+
+                <fig id="b_7890123456789_part_002_chapter_003_fig_001" fig-type="Abb.Verzeichnis">
+                	<object-id pub-id-type="doi">12.34567/123456789-11-A-01</object-id>
+					<label>Abb. 1</label>
+                	<caption>
+                		<title>Bildunterschrift für Abb. 1</title>
+                	</caption>
+					<graphic xlink:href="b_7890123456789_fig_001.jpg"/>
+                </fig>
+				
+				<p>Neben physikalischen Modellen können heutzutage
+                insbesondere dreidimensionale numerische Strömungsmodelle,
+                Erfahrung des Ingenieurs vorausgesetzt, die oft sehr komplexen
+                Strömungen gut abbilden. Zur Gewährleistung gesicherter
+                Ergebnisse bedürfen numerische Modelle jedoch immer einer
+                Kalibrierung bzw. Validierung.</p>
+
+                <fig id="b_7890123456789_part_002_chapter_003_fig_002" fig-type="Abb.Verzeichnis">
+                	<object-id pub-id-type="doi">12.34567/123456789-11-A-02</object-id>
+					<label>Abb. 2</label>
+                	<caption>
+                		<title>Unter Anwendung des passenden Modellgesetzes und eines geeigneten 
+						Maßstabes, liefern sie sehr verlässliche Ergebnisse.</title>
+                	</caption>
+					<graphic xlink:href="b_7890123456789_fig_002.jpg"/>
+                </fig>
+
+                <p>Dementgegen sollten physikalische Versuche Anwendung
+                finden, wenn Kalibrierungsdaten, beispielsweise bei Neubauten,
+                nicht zur Verfügung stehen und komplexe Strömungsverhältnisse
+                zu prognostizieren sind. Unter Anwendung des passenden
+                Modellgesetzes und eines geeigneten Maßstabes, liefern sie
+                sehr verlässliche Ergebnisse.</p>
+			</sec>
+
+            <!-- If code is included in your manuscript, you can have a look at the examples in this section. -->
+			<sec id="b_7890123456789_part_002_chapter_003_006" sec-type="TOC">
+				<label>3.6</label>
+				<title>Programmier-Code</title>
+
+				<p>Dementgegen sollten physikalische Versuche Anwendung finden,
+				wenn Kalibrierungsdaten, beispielsweise bei Neubauten, nicht zur
+				Verfügung stehen und komplexe Strömungsverhältnisse zu
+				prognostizieren sind. Unter Anwendung des passenden
+				Modellgesetzes und eines geeigneten Maßstabes, liefern sie sehr
+				verlässliche Ergebnisse.</p>
+
+<code code-type="dtd">&lt;!ELEMENT implications (tree+) &gt;
+&lt;!ELEMENT tree (root, branches) &gt; &lt;!ELEMENT root (term,
+synonym?) &gt; &lt;!ELEMENT branches (term | (term, synonym) |
+tree)* &gt; </code>
+
+				<p>Neben physikalischen Modellen können heutzutage insbesondere
+				dreidimensionale numerische Strömungsmodelle, Erfahrung des
+				Ingenieurs vorausgesetzt, die oft sehr komplexen Strömungen gut
+				abbilden. Zur Gewährleistung gesicherter Ergebnisse bedürfen
+				numerische Modelle jedoch immer einer Kalibrierung bzw.
+				Validierung.</p>
+
+<code code-type="javascript">function myFunction() { var x,
+text; x =document. getElementById("numb").value; if (isNaN(x) ||
+x &lt; 1 || x &gt; 10) { text = "Input not valid"; } else { text
+= "Input OK"; }document. getElementById("demo").innerHTML =
+text; }</code>
+
+				<p>Dementgegen sollten physikalische Versuche Anwendung finden,
+				wenn Kalibrierungsdaten, beispielsweise bei Neubauten, nicht zur
+				Verfügung stehen und komplexe Strömungsverhältnisse zu
+				prognostizieren sind. Unter Anwendung des passenden
+				Modellgesetzes und eines geeigneten Maßstabes, liefern sie sehr
+				verlässliche Ergebnisse.</p>
+            </sec>
+
+            <!-- This section contains boxed text for special information. -->
+			<sec id="b_7890123456789_part_002_chapter_003_007" sec-type="TOC">
+				<label>3.7</label>
+				<title>Textboxen und Infokästen</title>
+
+				<p>Im Rahmen wasserbaulicher Planungen kommen zur ersten
+				Vorbemessung überwiegend die gängigen Berechnungsformeln zum
+				Einsatz. Da diese jedoch auf empirisch ermittelten Beiwerten
+				beruhen, sind die Ergebnisse lediglich für bestimmte
+				Standardfälle verlässlich. Wasserbauwerke sind jedoch
+				größtenteils Einzellösungen und die Planungen gehen über die
+				Standardfälle hinaus. Selbst bereits vorhandene und erprobte
+				Lösungen können aufgrund der verschiedensten örtlichen
+				Gegebenheiten sowie der unterschiedlichen Anforderungen an das
+				Bauwerk nicht einfach auf eine andere Anlage übertragen werden.
+				Praktisch immer sind komplexe Strömungen zu erwarten.
+				Infolgedessen ist die Planung wasserbaulicher Anlagen vor der
+				Ausführung zu überprüfen und gegebenenfalls zu optimieren.
+				Hierfür eignen sich sowohl physikalische als auch numerische
+				 Modelle.</p>
+
+				<boxed-text id="b_7890123456789_part_002_chapter_003_box_001">
+					<p>Boxes contain important information.</p>
+				</boxed-text>
+
+				<p>Teilweise kommen numerische Modelle im Rahmen der
+				Variantenfindung bei der Vorbemessung wasserbaulicher Anlagen
+				auch ohne Kalibrierung zum Einsatz. Eine Bewertung der Varianten
+				anhand qualitativer Unterschiede zwischen den
+				Berechnungsergebnissen ist dennoch möglich, da mögliche
+				Ergebnisungenauigkeiten bezogen auf die Realität gleichermaßen
+				in die Berechnungen einfließen.</p>
+
+				<boxed-text id="b_7890123456789_part_002_chapter_003_box_002">
+					<p>Für bestimmte Fragestellungen kann es unter Umständen
+					zweckmäßig sein, ein numerisches mit einem physikalischen
+					Modell zu kombinieren. Sogenannte hybride Modelle vereinen die
+					jeweiligen Vorteile der verschiedenen Modellierungsarten.
+					Gerade im Zuge der Optimierung wasserbaulicher Anlagen ist die
+					Untersuchung zahlreicher Varianten keine Seltenheit. Die
+					zunächst höheren Kosten für die Erstellung zweier Modelle
+					können häufig kompensiert werden. Teilweise ist neben dem
+					finanziellen Aufwand sogar eine Reduzierung des Zeitaufwandes
+					möglich.</p>
+				</boxed-text>
+
+				<boxed-text id="b_7890123456789_part_002_chapter_003_box_003">
+					<p>Die zunächst höheren Kosten für die Erstellung zweier
+					Modelle können häufig kompensiert werden. Teilweise ist neben
+					dem finanziellen Aufwand sogar eine Reduzierung des
+					Zeitaufwandes möglich.</p>
+				</boxed-text>
+
+				<p>Neben physikalischen Modellen können heutzutage insbesondere
+				dreidimensionale numerische Strömungsmodelle, Erfahrung des
+				Ingenieurs vorausgesetzt, die oft sehr komplexen Strömungen gut
+				abbilden. Zur Gewährleistung gesicherter Ergebnisse bedürfen
+				numerische Modelle jedoch immer einer Kalibrierung bzw.
+				Validierung.</p>
+            </sec>
+
+            <!-- This section contains index terms that can be displayed automatically in the appendix. -->
+			<sec id="b_7890123456789_part_002_chapter_003_008" sec-type="TOC">
+				<label>3.8</label>
+				<title>Index-Begriffe und Querverweise</title>
+
+				<p>Für bestimmte Fragestellungen kann es unter Umständen
+				zweckmäßig sein, ein numerisches mit einem physikalischen Modell
+				zu kombinieren. Sogenannte hybride Modelle vereinen die
+				jeweiligen Vorteile der verschiedenen Modellierungsarten. Gerade
+				im Zuge der Optimierung wasserbaulicher Anlagen ist die
+				Untersuchung zahlreicher Varianten keine Seltenheit. Die
+				zunächst höheren Kosten für die Erstellung zweier Modelle können
+				häufig kompensiert werden. Teilweise ist neben dem finanziellen
+				Aufwand sogar eine Reduzierung des Zeitaufwandes möglich.</p>
+
+				<p> In den meisten <index-term
+				id="b_7890123456789_part_002_chapter_003_term_001">
+				<term>CFD-Programmen</term>
+				</index-term> ist die Integralform implementiert. Die
+				Diskretisierung erfolgt hierfür nach dem <index-term
+				id="b_7890123456789_part_002_chapter_003_term_002">
+                <term>Finite-Volumen-Verfahren (FV)</term>
+                </index-term>. Verdichtungsstöße werden besser er-fasst, da
+				Unstetigkeiten innerhalb des Kontrollvolumens zugelassen werden.
+				Im Gegensatz dazu sind die Strömungsgrößen innerhalb des
+				Volumenelementes bei der Differentialform bzw. dem <index-term
+				id="b_7890123456789_part_002_chapter_003_term_003">
+				<term>Finite-Differenzen-Verfahren (FD)</term>
+                </index-term> stetig, was jedoch bei Verdichtungsstößen nicht
+				der Fall ist. Verdichtungsstöße sind unstetige Änderungen des
+				Strömungszustandes, die mit sprunghaften Änderungen der Dichte
+				einhergehen und somit lediglich bei <index-term
+				id="b_7890123456789_part_002_chapter_003_term_004">
+				<term>Überschallströmungen</term>
+                </index-term> in kompressiblen Medien auftreten können. Für
+				Strömungen mit Wasser als Fluid sind Verdichtungsstöße
+				irrelevant. Weitere Erläuterungen zu den
+				Diskretisierungsmethoden werden in <xref
+				ref-type="chapter" rid="b_7890123456789_part_002_chapter_003_001">(Kapitel
+				3.1)</xref> gegeben.</p>
+
+				<p>Mit Hilfe der vollständigen Navier-Stokes-Gleichungen wird
+				eine Strömung mit kleinsten Wirbeln und Turbulenzen beschrieben.
+				Zur Lösung dieser Gleichungen sind sehr fein aufgelöste
+				<index-term id="b_7890123456789_part_002_chapter_003_term_005">
+                <term>Berechnungsnetze</term></index-term> erforderlich, was jedoch zu 
+				Lasten der Rechenzeit geht. Daraus resultierend ist deren Einsatz für
+				technische Anwendungen meist nicht praktikabel. Die meisten CFD-Programme
+				lösen deshalb vereinfachte Erhaltungsgleichungen, beispielsweise
+				die Reynolds-gemittelten-Navier-Stokes-Gleichungen <xref
+				ref-type="chapter" rid="b_7890123456789_part_002_chapter_002_002">(Kapitel
+				2.2)</xref>.</p>
+
+				<p>Die genaueste Methode zur Berechnung von Strömungen ist
+				direkte numerische Simulation (engl.: <index-term id="b_7890123456789_part_002_chapter_003_term_006">
+                <term>Direct Numerical Simulation</term></index-term>, DNS). Dabei werden 
+				die vollständigen <index-term id="b_7890123456789_part_002_chapter_003_term_007">
+                <term>Navier-Stokes-Gleichungen</term></index-term><xref
+				ref-type="chapter" rid="b_7890123456789_part_002_chapter_003_007"> (Kapitel
+				3.7)</xref> gelöst, d. h alle relevanten, so
+				auch kleinstskalige Turbulenzen, werden sowohl räumlich als auch
+				zeitlich berechnet. Voraussetzung hierfür ist jedoch ein
+				hochaufge-löstes Berechnungsnetz <xref
+				ref-type="chapter" rid="b_7890123456789_part_002_chapter_003_002">(Kapitel
+				3.2)</xref>. Nicht selten
+				übersteigen die Netze eine Knotenanzahl von 100 Millionen. Dies
+				erfordert extreme Rechenleistungen und –zeiten, die für
+				alltägliche Anwendungen nicht zweckmäßig sind. Auch die
+				erforderliche Speicherkapazität ist wegen des Berechnens der
+				instationären Gleichungen zur Auflösung der Zeit immens, da die
+				Lösung für jeden Zeitschritt gesichert wird. Daher beschränkt
+				sich der Einsatz von <index-term
+                id="b_7890123456789_part_002_chapter_003_term_008">
+                <term>DNS</term>
+                </index-term> hauptsächlich auf die Forschung. Mit dem Ziel
+				weniger rechenintensiver Methoden bildet sie die Grundlage zur
+				Entwicklung neuer und Optimierung bestehender Modelle.</p>
+            </sec>
+			</body>
+			</book-part>
+		</body>
+	</book-part>
+</book-body>
+
+
+<!-- Book Backmatter starts here -->
+<book-back>
+
+	<!-- This is how a reference list looks like.
+		 All the elements of a reference are included in the <mixed-citation> tag. -->
+    <ref-list id="b_7890123456789_reflist_001">
+		<title>Literaturverzeichnis</title>
+		<ref-list>
+		<title>Literatur</title>
+		<ref id="b_7890123456789_ref_001">
+			<mixed-citation>Aigner, D., Bollrich, G.: Handbuch der Hydraulik für
+			Wasserbau und Wasserwirtschaft, Beuth Verlag GmbH Berlin Wien Zürich,
+			2015</mixed-citation>
+		</ref>
+		<ref id="b_7890123456789_ref_002">
+			<mixed-citation>SAS IP, Inc.: ANYSY Help Viewer, Version 15.0,
+			2013</mixed-citation>
+		</ref>
+		<ref id="b_7890123456789_ref_003">
+			<mixed-citation>ANSYS Inc.: ANSYS CFX-Solver Modeling Guide, Release
+			15.0, 2013</mixed-citation>
+		</ref>
+		<ref id="b_7890123456789_ref_004">
+			<mixed-citation>ANSYS Inc.: ANSYS CFX-Solver Theory Guide, Release
+			15.0, 2013</mixed-citation>
+		</ref>
+		<ref id="b_7890123456789_ref_005">
+			<mixed-citation>Blind, H.: Wasserbauten aus Beton, Handbuch für
+			Beton-, Stahlbeton- und Spannbetonbau, Ernst, Verlag für Architektur
+			u. techn. Wiss., Berlin, 1987</mixed-citation>
+		</ref>
+		<ref id="b_7890123456789_ref_006">
+			<mixed-citation>Bollrich, G.: Technische Hydromechanik 1, Verlag für
+			Bauwesen GmbH, 1996</mixed-citation>
+		</ref>
+		</ref-list>
+				<ref-list>
+		<title>Internetquellen</title>
+		<ref id="b_7890123456789_ref_007">
+				<mixed-citation>1a-Studi (2019): Kostenbeispiele für Korrekturlesen &amp; Lektorat. 
+				URL: https://www.1a-studi.de/korrekturlesen-lektorat-preise (Aufruf am 08.11.2019)</mixed-citation>
+			</ref>
+			<ref id="b_7890123456789_ref_008">
+				<mixed-citation>acadoo (2019): Wissenschaftliches Lektorat. 
+				URL: https://wissenschaftlicheslektorat.com/ (Aufruf am 08.11.2019)</mixed-citation>
+			</ref>
+			<ref id="b_7890123456789_ref_009">
+				<mixed-citation>Akademischeslektorat.com (2019): Wissenschaftliches Lektorat für Dissertation. 
+				URL: http://www.akademischeslektorat.com/wissenschaftliches-lektorat-fuer-dissertation/ (Aufruf am 08.11.2019)</mixed-citation>
+			</ref>
+			<ref id="b_7890123456789_ref_010">
+				<mixed-citation>Albers, S. et al. (2007): Methodik der empirischen Forschung. 
+				Gabler Verlag, 2. Auflage, Wiesbaden. ISBN: 9783834904690</mixed-citation>
+			</ref>
+			<ref id="b_7890123456789_ref_011">
+				<mixed-citation>Allweyer, T. (2015): BPMN 2.0 – Business Process Model and Notation: 
+				Einführung in den Standard für die Geschäftsprozessmodellierung. BoD – Books on Demand, 
+				Norderstedt. ISBN: 9783738626711</mixed-citation>
+			</ref>
+		</ref-list>
+    </ref-list>
+
+<!-- Appendices
+	 They look like the book content part and may contain further information, tables, graphics and so on. -->
+
+	<book-app-group>
+		<book-part-meta>
+			<title-group>
+				<title>Anhang</title>
+			</title-group>
+		</book-part-meta>
+
+		<book-app id="b_7890123456789_app_001">
+			<book-part-meta>
+				<book-part-id book-part-id-type="doi">4.2345/123456789</book-part-id>
+				<title-group>
+					<label>Anhang 1</label>
+					<title>Überschrift erster Ordnung des Anhangs</title>
+				</title-group>
+			</book-part-meta>
+			<body>
+				<sec id="b_7890123456789_app_001_001" sec-type="TOC">
+				<label>A-1.1</label>
+				<title>Überschrift zweiter Ordnung des Anhangs</title>
+
+				<p>Die Untersuchung des physikalischen Verhaltens von Fluiden
+				(Flüssigkeiten und Gase) erfolgt auf dem Gebiet der
+				Strömungsmechanik, auch Fluidmechanik genannt. Theoretisch können
+				Strömungsvorgänge durch Strömungsgleichungen (siehe <xref
+				ref-type="chapter" rid="b_7890123456789_part_002_chapter_002_002">Kapitel
+				2.2</xref>) exakt beschrieben werden, wenngleich die analytische Lösung
+				dieser Gleichungen nur für einfachste Strömungen möglich ist. Da
+				jedoch nahezu alle Anwendungen sehr viel komplexer sind und diese
+				einfachen Strömungen somit praktisch nicht existieren, wurden und
+				werden verschiedene Strömungsvorgänge auf Grundlage von
+				Experimenten in Formeln überführt. Diese setzen bestimmte
+				Bedingungen voraus und beruhen überwiegend auf empirisch
+				ermittelten Beiwerten. Während damit für einige Anwendungsfälle
+				realitätsnahe Ergebnisse erzielt werden können, sind diese mit
+				steigender Komplexität mit größeren Unsicherheiten behaftet.
+				Des-halb erfolgte die Erfassung komplexer Strömungen lange
+				ausschließlich mit Hilfe physikalischer Modelle.</p>
+				
+				<p>Sowohl die Genauigkeit der Ergebnisse als auch die Rechenzeit
+				hängen von vielerlei Faktoren ab, beispielswiese der gewählten
+				Gleichungen, der Diskretisierungsmethode sowie der Art, Feinheit
+				und Qualität des Berechnungsnetzes. Für ein gutes Verhältnis
+				zwischen Genauigkeit und akzeptablem Rechenaufwand wurde in der
+				Vergangenheit bereits eine Vielzahl verschiedener mathematischer
+				Modelle aufgestellt. Aber auch zukünftig erlauben immer schnellere
+				Prozessoren sowie immer größere Speicherkapazitäten die stete
+				Entwicklung neuer, aufwendigerer und genauerer Modelle.
+				Geometrische Ähnlichkeit besteht, wenn alle geometrischen Maße
+				wie Länge, Breite und Höhe unter Verwendung der gleichen
+				Maßstabszahl von der Natur auf die Modellgrößen und umgekehrt
+				übertragen werden. Bei der kinematischen Ähnlichkeit stehen alle
+				zeitabhängigen Prozesse (z. B. Fließgeschwindigkeit) in einem
+				festen Verhältnis. Dagegen setzt die dynamische Ähnlichkeit
+				voraus, dass die in einer Strömung wirkenden Kräfte (z. B.
+				Schwerkraft, Trägheit, Reibung, Kapillardruck, Elastizität,
+				Staudruck) zwischen Modell und Natur im gleichen Verhältnis
+				stehen. <xref ref-type="bibr"  rid="b_7890123456789_ref_006">
+				[Bollrich, G. 1996]</xref></p>
+				
+				<p>Sowohl die Genauigkeit der Ergebnisse als auch die Rechenzeit
+				hängen von vielerlei Faktoren ab, beispielswiese der gewählten
+				Gleichungen, der Diskretisierungsmethode sowie der Art, Feinheit
+				und Qualität des Berechnungsnetzes. Für ein gutes Verhältnis
+				zwischen Genauigkeit und akzeptablem Rechenaufwand wurde in der
+				Vergangenheit bereits eine Vielzahl verschiedener mathematischer
+				Modelle aufgestellt. Aber auch zukünftig erlauben immer schnellere
+				Prozessoren sowie immer größere Speicherkapazitäten die stete
+				Entwicklung neuer, aufwendigerer und genauerer Modelle.
+				Geometrische Ähnlichkeit besteht, wenn alle geometrischen Maße
+				wie Länge, Breite und Höhe unter Verwendung der gleichen
+				Maßstabszahl von der Natur auf die Modellgrößen und umgekehrt
+				übertragen werden. Bei der kinematischen Ähnlichkeit stehen alle
+				zeitabhängigen Prozesse (z. B. Fließgeschwindigkeit) in einem
+				festen Verhältnis. Dagegen setzt die dynamische Ähnlichkeit
+				voraus, dass die in einer Strömung wirkenden Kräfte (z. B.
+				Schwerkraft, Trägheit, Reibung, Kapillardruck, Elastizität,
+				Staudruck) zwischen Modell und Natur im gleichen Verhältnis
+				stehen. <xref ref-type="bibr"  rid="b_7890123456789_ref_006">
+				[Bollrich, G. 1996]</xref></p>
+				</sec>
+			</body>
+		</book-app>
+
+		<book-app id="b_7890123456789_app_002">
+			<book-part-meta>
+				<book-part-id book-part-id-type="doi">5.2345/123456789</book-part-id>
+				<title-group>
+					<label>Anhang 2</label>
+					<title>Zweite Überschrift des Anhangs</title>
+				</title-group>
+			</book-part-meta>
+			<body>
+				<p>Eine weitere Voraussetzung für das Berechnen von Strömungen ist
+				ein Berechnungsnetz (<xref ref-type="chapter" rid="b_7890123456789_part_002_chapter_002_001">
+				Kapitel 2.1)</xref>). Hierzu wird das Untersuchungsgebiet in eine Vielzahl kleiner Elemente
+				(Kontrollvolumen) zerlegt, die über sogenannte Knoten miteinander
+				verbunden sind. Die Zerlegung wird auch als Diskretisierung bezeichnet. 
+				Für jeden Berechnungsnetzknoten bzw.
+				jedes Element werden nun die die Strömung charakterisierenden
+				physikalischen Größen wie beispielsweise Geschwindigkeit und Druck
+				berechnet. Zwischen den Knoten werden die Ergebnisse interpoliert.
+				Die Lösungsfindung erfolgt iterativ, wobei die Berech-nungen so
+				lange wiederholt werden, bis die Unterschiede zwischen zwei
+				aufeinander folgenden Lösungen vernachlässigbar sind bzw.
+				innerhalb einer vorgegebenen Toleranz (Abbruchkriterium)
+				liegen.</p>
+				
+				<p>Sowohl die Genauigkeit der Ergebnisse als auch die Rechenzeit
+				hängen von vielerlei Faktoren ab, beispielswiese der gewählten
+				Gleichungen, der Diskretisierungsmethode sowie der Art, Feinheit
+				und Qualität des Berechnungsnetzes. Für ein gutes Verhältnis
+				zwischen Genauigkeit und akzeptablem Rechenaufwand wurde in der
+				Vergangenheit bereits eine Vielzahl verschiedener mathematischer
+				Modelle aufgestellt. Aber auch zukünftig erlauben immer schnellere
+				Prozessoren sowie immer größere Speicherkapazitäten die stete
+				Entwicklung neuer, aufwendigerer und genauerer Modelle.
+				Geometrische Ähnlichkeit besteht, wenn alle geometrischen Maße
+				wie Länge, Breite und Höhe unter Verwendung der gleichen
+				Maßstabszahl von der Natur auf die Modellgrößen und umgekehrt
+				übertragen werden. Bei der kinematischen Ähnlichkeit stehen alle
+				zeitabhängigen Prozesse (z. B. Fließgeschwindigkeit) in einem
+				festen Verhältnis. Dagegen setzt die dynamische Ähnlichkeit
+				voraus, dass die in einer Strömung wirkenden Kräfte (z. B.
+				Schwerkraft, Trägheit, Reibung, Kapillardruck, Elastizität,
+				Staudruck) zwischen Modell und Natur im gleichen Verhältnis
+				stehen.</p>
+				
+				<sec id="b_7890123456789_app_002_002" sec-type="TOC">
+				<label>A-2.1</label>
+				<title>Überschrift zweiter Ordnung des Anhangs, die über mindestens 
+				zwei Zeilen laufen soll</title>
+
+				<p>Sowohl die Genauigkeit der Ergebnisse als auch die Rechenzeit
+				hängen von vielerlei Faktoren ab, beispielswiese der gewählten
+				Gleichungen, der Diskretisierungsmethode sowie der Art, Feinheit
+				und Qualität des Berechnungsnetzes. Für ein gutes Verhältnis
+				zwischen Genauigkeit und akzeptablem Rechenaufwand wurde in der
+				Vergangenheit bereits eine Vielzahl verschiedener mathematischer
+				Modelle aufgestellt. Aber auch zukünftig erlauben immer schnellere
+				Prozessoren sowie immer größere Speicherkapazitäten die stete
+				Entwicklung neuer, aufwendigerer und genauerer Modelle. </p>
+
+				<p>Geometrische Ähnlichkeit besteht, wenn alle geometrischen Maße
+				wie Länge, Breite und Höhe unter Verwendung der gleichen
+				Maßstabszahl von der Natur auf die Modellgrößen und umgekehrt
+				übertragen werden. Bei der kinematischen Ähnlichkeit stehen alle
+				zeitabhängigen Prozesse (z. B. Fließgeschwindigkeit) in einem
+				festen Verhältnis. Dagegen setzt die dynamische Ähnlichkeit
+				voraus, dass die in einer Strömung wirkenden Kräfte (z. B.
+				Schwerkraft, Trägheit, Reibung, Kapillardruck, Elastizität,
+				Staudruck) zwischen Modell und Natur im gleichen Verhältnis
+				stehen.</p>
+				
+				<p>Sowohl die Genauigkeit der Ergebnisse als auch die Rechenzeit
+				hängen von vielerlei Faktoren ab, beispielswiese der gewählten
+				Gleichungen, der Diskretisierungsmethode sowie der Art, Feinheit
+				und Qualität des Berechnungsnetzes. Für ein gutes Verhältnis
+				zwischen Genauigkeit und akzeptablem Rechenaufwand wurde in der
+				Vergangenheit bereits eine Vielzahl verschiedener mathematischer
+				Modelle aufgestellt. Aber auch zukünftig erlauben immer schnellere
+				Prozessoren sowie immer größere Speicherkapazitäten die stete
+				Entwicklung neuer, aufwendigerer und genauerer Modelle.
+				Geometrische Ähnlichkeit besteht, wenn alle geometrischen Maße
+				wie Länge, Breite und Höhe unter Verwendung der gleichen
+				Maßstabszahl von der Natur auf die Modellgrößen und umgekehrt
+				übertragen werden. Bei der kinematischen Ähnlichkeit stehen alle
+				zeitabhängigen Prozesse (z. B. Fließgeschwindigkeit) in einem
+				festen Verhältnis. Dagegen setzt die dynamische Ähnlichkeit
+				voraus, dass die in einer Strömung wirkenden Kräfte (z. B.
+				Schwerkraft, Trägheit, Reibung, Kapillardruck, Elastizität,
+				Staudruck) zwischen Modell und Natur im gleichen Verhältnis
+				stehen.</p>
+				</sec>
+			</body>
+		</book-app>
+    </book-app-group>
+</book-back>
+</book>
